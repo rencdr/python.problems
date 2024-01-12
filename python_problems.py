@@ -70,3 +70,12 @@ def past(h, m, s):
     
 """
 
+"""
+7.Write a function to convert a name into initials. This kata strictly takes two words with one space in between them.
+The output should be two capital letters with a dot separating them.
+
+def abbrev_name(name):
+    words = name.split()
+    initials = words[0][0].upper() + '.' + words[1][0].upper()
+    return initials
+"""
