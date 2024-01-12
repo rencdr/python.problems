@@ -58,3 +58,15 @@ def are_you_playing_banjo(name):
         return name + " does not play banjo"
 
 """
+
+"""
+6.Clock shows h hours, m minutes and s seconds after midnight.
+Your task is to write a function which returns the time since midnight in milliseconds.
+
+def past(h, m, s):
+    total_s = (h * 3600) + (m * 60) + s
+    ms = total_s * 1000
+    return ms
+    
+"""
+
