@@ -47,3 +47,14 @@ def roman_to_int(s):
 
 
 """
+"""
+5.Create a function which answers the question "Are you playing banjo?".
+If your name starts with the letter "R" or lower case "r", you are playing banjo!
+
+def are_you_playing_banjo(name):
+    if name.startswith('R') or name.startswith('r'):
+        return name + " plays banjo"
+    else:
+        return name + " does not play banjo"
+
+"""
