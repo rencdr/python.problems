@@ -167,3 +167,13 @@ def sale_hotdogs(n):
     elif n >= 10:
         return n * 90   
 """
+"""
+13.Write a Python function named is_anagram that takes two strings as input and returns True if the strings are anagrams, and False otherwise. An anagram is a word or phrase formed by rearranging the letters of another.
+
+def is_anagram(str1, str2):
+    str1 = str1.replace(" ", "").lower()
+    str2 = str2.replace(" ", "").lower()
+    
+    return sorted(str1) == sorted(str2)
+
+"""
