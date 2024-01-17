@@ -157,3 +157,13 @@ def is_flush(cards):
     
     return True
 """
+"""
+12.Complete function saleHotdogs/SaleHotDogs/sale_hotdogs, function accepts 1 parameter:n, n is the number of hotdogs a customer will buy, different numbers have different prices (refer to the following table), return how much money will the customer spend to buy that number of hotdogs.
+def sale_hotdogs(n):
+    if n < 5:
+        return n * 100  
+    elif 5 <= n < 10:
+        return n * 95   
+    elif n >= 10:
+        return n * 90   
+"""
