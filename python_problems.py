@@ -177,3 +177,12 @@ def is_anagram(str1, str2):
     return sorted(str1) == sorted(str2)
 
 """
+"""
+14.Simple, given a string of words, return the length of the shortest word(s).
+
+def find_short(s):
+    words = s.split()    
+    min_length = min(len(word) for word in words)
+    
+    return min_length
+"""
