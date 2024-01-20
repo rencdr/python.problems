@@ -249,3 +249,15 @@ def sum_two_smallest_numbers(numbers):
 
     return sum(two_smallest)
 """
+"""
+18.Given a string of digits, you should replace any digit below 5 with '0' and any digit 5 and above with '1'. Return the resulting string.
+
+def fake_bin(x):
+    new_x = ''
+    for digit in x:
+        if int(digit) >= 5:
+            new_x += '1'
+        else:
+            new_x += '0'
+    return new_x
+"""
