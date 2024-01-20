@@ -229,3 +229,23 @@ def is_isogram(string):
     
     return True
 """
+"""
+17.Create a function that returns the sum of the two lowest positive numbers given an array of minimum 4 positive integers. No floats or non-positive integers will be passed.
+
+def sum_two_smallest_numbers(numbers):
+    if len(numbers) < 4:
+        return "Array should contain at least 4 positive integers."
+
+    min_numbers = set()
+
+    for num in numbers:
+        if num > 0:
+            min_numbers.add(num)
+
+    if len(min_numbers) < 2:
+        return "Array should contain at least 2 different positive integers."
+
+    two_smallest = sorted(min_numbers)[:2]
+
+    return sum(two_smallest)
+"""
