@@ -261,3 +261,10 @@ def fake_bin(x):
             new_x += '0'
     return new_x
 """
+"""
+19.Code as fast as you can! You need to double the integer and return it.
+
+def double_integer(i):
+    total = (i*2);
+    return total;
+"""
