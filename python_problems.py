@@ -283,3 +283,14 @@ def get_count(sentence):
     
     return vowelsCount
 """
+"""
+21.Given an integer array nums, move all 0's to the end of it while maintaining the relative order of the non-zero elements.
+
+class Solution:
+    def moveZeroes(self, nums: List[int]) -> None:
+        non_zeros = [num for num in nums if num != 0]
+        zero_count = len(nums) - len(non_zeros)
+        
+        nums[:len(non_zeros)] = non_zeros
+        nums[len(non_zeros):] = [0] * zero_count
+"""
