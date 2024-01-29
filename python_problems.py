@@ -301,3 +301,17 @@ If the function is passed a valid PIN string, return true, else return false.
 def validate_pin(pin):
     return len(pin) in (4, 6) and pin.isdigit()
 """
+"""
+23.
+An orderly trail of ants is marching across the park picnic area.
+..ant..ant.ant...ant.ant..ant.ant....ant..ant.ant.ant...ant..
+But suddenly there is a rumour that a dropped chicken sandwich has been spotted on the ground ahead. The ants surge forward! Oh No, it's an ant stampede!!
+Some of the slower ants are trampled, and their poor little ant bodies are broken up into scattered bits.
+The resulting carnage looks like this:
+...ant...ant..nat.ant.t..ant...ant..ant..ant.anant..t
+Can you find how many ants have died?
+
+def dead_ant_count(ants):
+    ants = ants.replace("ant", "")
+    return max([ants.count("a"), ants.count("n"), ants.count("t")])
+"""
